@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Lorena Cristina</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- 🔹 MENU DE NAVEGAÇÃO -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#biografia">HOME</a></li>
+        <li><a href="#portfolio">PORTIFÓLIO</a></li>
+        <li><a href="#contato">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🔹 SEÇÃO PRINCIPAL -->
+  <section class="hero" id="biografia">
+    <div class="hero-text">
+      <h1>LORENA<br>CRISTINA</h1>
+      <p class="subtitle">✱ Fotografia intimista e atemporal, feita para eternizar <br> histórias de amor, vida e família.</p>
+    </div>
+    <div class="hero-img">
+      <img src="fotos/prewedding.png" alt="Fotografia de Moda">
+    </div>
+  </section>
+
+  <!-- 🔹 SEÇÃO PORTFÓLIO -->
+  <section id="portfolio" class="portfolio">
+    <h2>Meu Trabalho</h2>
+    <div class="carousel-container">
+      <button class="carousel-btn prev">&#10094;</button>
+      <div class="carousel-track">
+        <div class="portfolio-item">
+          <img src="fotos/prewedding/WhatsApp%20Image%202025-08-09%20at%2016.54.05.jpeg" alt="Pre-Wedding">
+          <div class="overlay">
+            <p>Pre-Wedding</p>
+            <a href="portfolio_detalhe.html?categoria=prewedding">Ver mais</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://i.imgur.com/UY5pHp2.jpeg" alt="Família">
+          <div class="overlay">
+            <p>Família</p>
+            <a href="portfolio_detalhe.html?categoria=familia">Ver mais</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="fotos/aniversario/WhatsApp%20Image%202025-08-17%20at%2020.04.31.jpeg" alt="Comemoração">
+          <div class="overlay">
+            <p>Comemoração</p>
+            <a href="portfolio_detalhe.html?categoria=aniversario">Ver mais</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://i.imgur.com/40DNch0.jpeg" alt="Comemoração">
+          <div class="overlay">
+            <p>Comemoração</p>
+            <a href="portfolio_detalhe.html?categoria=comemoracao">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- 🔹 SEÇÃO CONTATO -->
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato pelas redes sociais ou envie uma mensagem:</p>
+    <div class="social-icons">
+      <a href="https://instagram.com/seuusuario" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/5511999999999" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="mailto:contato@email.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <!-- 🔹 SCRIPTS -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <script src="carousel.js" defer></script> <!-- defer garante que rode depois que o HTML carregar -->
+</body>
+</html>
