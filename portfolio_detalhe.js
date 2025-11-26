@@ -9,19 +9,26 @@ let imagensCategoria = []; // vai receber as imagens da categoria
 
 // ---------------- Dados das imagens direto no JS ----------------
 const imagens = {
-  aniversario: [
-    "fotos/aniversario/WhatsApp Image 2025-08-17 at 20.04.31.jpeg",
-    "fotos/aniversario/WhatsApp Image 2025-08-17 at 20.04.32 (1).jpeg",
-    "fotos/aniversario/WhatsApp Image 2025-08-17 at 20.04.32.jpeg",
-    "fotos/aniversario/WhatsApp Image 2025-08-17 at 20.04.33.jpeg",
-    "fotos/aniversario/WhatsApp Image 2025-08-17 at 20.04.34.jpeg"
+  "aniversario": [
+    "fotos/aniversario/WhatsApp%20Image%202025-08-17%20at%2020.04.31.jpeg",
+    "fotos/aniversario/WhatsApp%20Image%202025-08-17%20at%2020.04.32%20%281%29.jpeg",
+    "fotos/aniversario/WhatsApp%20Image%202025-08-17%20at%2020.04.32.jpeg",
+    "fotos/aniversario/WhatsApp%20Image%202025-08-17%20at%2020.04.33.jpeg",
+    "fotos/aniversario/WhatsApp%20Image%202025-08-17%20at%2020.04.34.jpeg"
   ],
-  prewedding: [
-    "fotos/prewedding/WhatsApp Image 2025-08-09 at 16.54.03.jpeg",
-    "fotos/prewedding/WhatsApp Image 2025-08-09 at 16.54.04.jpeg",
-    "fotos/prewedding/WhatsApp Image 2025-08-09 at 16.54.05 (1).jpeg",
-    "fotos/prewedding/WhatsApp Image 2025-08-09 at 16.54.05.jpeg",
-    "fotos/prewedding/WhatsApp Image 2025-08-09 at 16.54.06.jpeg"
+  "familia": [
+    "fotos/familia/IMG_8945.jpg",
+    "fotos/familia/IMG_8978.jpg",
+    "fotos/familia/IMG_9055.jpg",
+    "fotos/familia/IMG_9069.jpg",
+    "fotos/familia/IMG_9101.jpg"
+  ],
+  "prewedding": [
+    "fotos/prewedding/WhatsApp%20Image%202025-08-09%20at%2016.54.03.jpeg",
+    "fotos/prewedding/WhatsApp%20Image%202025-08-09%20at%2016.54.04.jpeg",
+    "fotos/prewedding/WhatsApp%20Image%202025-08-09%20at%2016.54.05%20%281%29.jpeg",
+    "fotos/prewedding/WhatsApp%20Image%202025-08-09%20at%2016.54.05.jpeg",
+    "fotos/prewedding/WhatsApp%20Image%202025-08-09%20at%2016.54.06.jpeg"
   ]
 };
 
