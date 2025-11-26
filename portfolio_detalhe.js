@@ -18,8 +18,11 @@ const imagens = {
     "fotos/aniversario/WhatsApp%20Image%202025-08-17%20at%2020.04.34.jpeg"
   ],
   "familia": [
-    "fotos/familia/IMG_8978.jpg",
-    "fotos/familia/IMG_8978.png"
+    "fotos/familia/IMG_8919.jpg",
+    "fotos/familia/IMG_8931.jpg",
+    "fotos/familia/IMG_9041.jpg",
+    "fotos/familia/IMG_9049.jpg",
+    "fotos/familia/IMG_9101.jpg"
   ],
   "prewedding": [
     "fotos/prewedding/WhatsApp%20Image%202025-08-09%20at%2016.54.03.jpeg",
